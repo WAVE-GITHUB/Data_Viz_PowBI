@@ -26,3 +26,33 @@ Data_Viz/
 ├── docs/                 # Documentation and metadata descriptions
 └── README.md
 ```
+## ⚙️ Data Processing Workflow
+
+The pipeline follows a structured sequence:
+
+1. Data Ingestion
+
+* Import raw WAVE datasets from multiple sources
+* Validate file formats and schema consistency
+
+2. Data Cleaning
+
+* Handle missing values and inconsistencies
+* Standardize variable names and formats
+* Remove duplicates and invalid entries
+
+3. Data Transformation
+
+* Aggregate or reshape data where necessary
+* Harmonize spatial and temporal scales
+* Derive key indicators relevant for surveillance and analysis
+
+4. Data Validation
+
+* Perform sanity checks and summary statistics
+* Ensure alignment with expected distributions and ranges
+* Export for Visualization
+
+6. Generate clean, structured tables
+
+7. Save outputs in formats compatible with Power BI (e.g., .csv, .xlsx)
